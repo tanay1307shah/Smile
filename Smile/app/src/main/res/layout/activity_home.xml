@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="itp341.shah.tanay.smile.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="SMILE"
+        android:textColor="#c1bf2c"
+        android:textSize="80sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff0000"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="275dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="Enter username"
+        android:textColorHint="#777777"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/pswd"
+        android:layout_marginTop="20dp"
+        android:layout_width="275dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="Enter password"
+        android:textColorHint="#777777"
+        android:inputType="textPassword"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_design"
+        android:elevation="80dp"
+        android:fontFamily="casual"
+        android:text="Login"
+        android:id="@+id/lbtn"
+        android:textColor="#ffffff"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/joinBtn"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_design"
+        android:elevation="40dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="join"
+        android:textColor="#ffffff"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

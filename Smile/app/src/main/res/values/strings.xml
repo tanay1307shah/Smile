@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Smile</string>
+    <string name="gender_tag_str">Gender:</string>
+    <string name="name_hint_str">Name</string>
+    <string name="age_hint_str">Age</string>
+    <string name="class_hint_str">Class</string>
+    <string name="fNum_hint_str">Father\'s Phone Number</string>
+    <string name="mother_s_phone_number_hint_str">Mother\'s Phone Number</string>
+    <string name="teacher_s_phone_number_hint_str">Teacher\'s Phone Number</string>
+    <string name="save_tag_str">Save</string>
+    <string name="ethnicity_str">Ethnicity</string>
+    <string name="image_url_str">Image URL</string>
+    <string name="error_msg">The username and password combination is wrong</string>
+
+</resources>

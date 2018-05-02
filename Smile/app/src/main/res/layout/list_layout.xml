@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark">
+
+        <EditText
+            android:id="@+id/query"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cardview_default_elevation"
+            android:layout_marginTop="20dp"
+            android:fontFamily="casual"
+            android:hint="Search a gif and have fun"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#d9dde2"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/searchBtn"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="-20dp"
+            android:src="@drawable/ic_search_white_24dp" />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="613dp">
+
+    </ListView>
+
+
+</LinearLayout>
